@@ -40,6 +40,7 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [Mozilla Developer Network (MDN) CSS Guide](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Codecademy HTML & CSS Course](https://www.codecademy.com/learn/learn-html)
 - [freeCodeCamp HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
+- [Nu Html Checker](https://validator.w3.org/nu/#textarea)
 
 ## Licença
 
