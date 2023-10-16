@@ -1,4 +1,4 @@
-# Learning_HTML_and_CSS
+# Learning HTML and CSS
 Bem-vindo ao meu repositório de estudo sobre HTML e CSS.
 
 ![html](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)
@@ -6,7 +6,7 @@ Bem-vindo ao meu repositório de estudo sobre HTML e CSS.
 
 ## Visão Geral
 
-Bem-vindo ao meu repositório "Learning_HTML_and_CSS". Este é um espaço dedicado ao meu aprendizado de HTML (Hypertext Markup Language) e CSS (Cascading Style Sheets). Aqui, vou documentar meu progresso, compartilhar exemplos e explorar os fundamentos do desenvolvimento web.
+Bem-vindo ao meu repositório. Este é um espaço dedicado ao meu aprendizado de HTML (Hypertext Markup Language) e CSS (Cascading Style Sheets). Aqui, vou documentar meu progresso, compartilhar exemplos e explorar os fundamentos do desenvolvimento web.
 
 ## Conteúdo
 
