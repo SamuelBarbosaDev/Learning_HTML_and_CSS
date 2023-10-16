@@ -1,8 +1,8 @@
 # Learning HTML and CSS
 Bem-vindo ao meu repositório de estudo sobre HTML e CSS.
 
-![html](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)
-![css](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)
+![html](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg)
+![css](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg)
 
 ## Visão Geral
 
