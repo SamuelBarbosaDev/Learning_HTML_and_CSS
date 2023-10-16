@@ -1,2 +1,53 @@
 # Learning_HTML_and_CSS
 Bem-vindo ao meu repositório de estudo sobre HTML e CSS.
+
+![html](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)
+![css](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg)
+
+## Visão Geral
+
+Bem-vindo ao meu repositório "Learning_HTML_and_CSS". Este é um espaço dedicado ao meu aprendizado de HTML (Hypertext Markup Language) e CSS (Cascading Style Sheets). Aqui, vou documentar meu progresso, compartilhar exemplos e explorar os fundamentos do desenvolvimento web.
+
+## Conteúdo
+
+Neste repositório, você encontrará:
+
+- Exemplos de código HTML e CSS.
+- Projetos práticos de pequena escala.
+- Recursos e links úteis relacionados a HTML e CSS.
+- Notas e aprendizados durante o processo.
+
+## Objetivos
+
+Meus principais objetivos para este projeto de aprendizado incluem:
+
+- Dominar os conceitos fundamentais do HTML e CSS.
+- Desenvolver habilidades de criar layouts responsivos.
+- Criar páginas web simples e elegantes.
+- Aprender boas práticas de desenvolvimento web.
+
+## Como Contribuir
+
+Se você deseja contribuir ou fornecer feedback, sinta-se à vontade para abrir issues e pull requests. Sua colaboração é muito bem-vinda!
+
+## Recursos
+
+Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
+
+- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
+- [W3Schools CSS Tutorial](https://www.w3schools.com/css/)
+- [Mozilla Developer Network (MDN) HTML Guide](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Mozilla Developer Network (MDN) CSS Guide](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Codecademy HTML & CSS Course](https://www.codecademy.com/learn/learn-html)
+- [freeCodeCamp HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
+
+## Licença
+
+Este projeto é distribuído sob a licença [GNU](LICENSE). Consulte o arquivo LICENSE para obter mais detalhes.
+
+---
+
+Vamos aprender HTML e CSS juntos! Siga em frente e comece a explorar este repositório. Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
+
+Happy coding! 🚀
+
