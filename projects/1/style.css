@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('img/BR-pt-20231009-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+.header{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header div{
+    display: flex;
+    align-items: center;  /*Alinha na vertical*/
+    justify-content: space-between;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 14px;
+}
+
+.header h1{
+    text-transform: uppercase;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
+#button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    width: 45px;
+    margin: 0px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#button a{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#button:hover{
+    background-color: rgb(139, 8, 8);
+}
+
+.container{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.container article{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container-titulo p{
+    margin-top: 10px;
+}
+
+.container-form {
+    margin-top: 10px;
+}
+
+.container-form form{
+    width: 100%;
+}
