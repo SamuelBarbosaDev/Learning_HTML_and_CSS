@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(138, 208, 211);
+}
+
+/* Header */
+.container-header {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+.container-header div{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container-header nav li{
+    display: inline;
+}
+
+.container-header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: red;
+}
+
+.container-nav nav{
+    background-color: blue;
+}
+
+/* Body */
+.container{
+    background-color: #fff;
+    width: 600px;
+    min-height: 800px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container form button{
+    cursor: pointer;
+}
+
+.container ol{
+    list-style-type: none;
+}
+
+.container ol li{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.container ol li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.container ol li label{
+    cursor: pointer;
+}
+
