@@ -18,6 +18,7 @@ function addTask(event){
     }
 };
 
+// Como riscar a tarrefa?
 function completeTask(event){
     const label = event.target.nextElementSibling;
 
@@ -29,11 +30,13 @@ function completeTask(event){
     }
 }
 
+// Como deletar a task?
 function deleteTask(event){
     const listItem = event.target.parentNode;
     tasks.removeChild(listItem);
 }
 
+// Rodando funções:
 form.addEventListener(
     'submit',
     addTask

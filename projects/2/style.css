@@ -12,6 +12,7 @@ body {
     background-color: rgba(0, 0, 0, 1);
     color: white;
 }
+
 .container-header div{
     height: 50px;
     width: 90%;
@@ -34,11 +35,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: red;
-}
-
-.container-nav nav{
-    background-color: blue;
 }
 
 /* Body */
@@ -72,4 +68,3 @@ body {
 .container ol li label{
     cursor: pointer;
 }
-
