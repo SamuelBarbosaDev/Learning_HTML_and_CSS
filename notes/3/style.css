@@ -38,6 +38,10 @@ header > .heading > nav > ul > li > a{
     color: #fff;
 }
 
+header > .heading > nav > ul > li > a:hover{
+    color: #d2f1d0;
+}
+
 header > .heading > .logo{
     font-weight: bold;
     font-size: 25px;
