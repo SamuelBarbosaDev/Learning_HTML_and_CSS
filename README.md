@@ -41,6 +41,8 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [Codecademy HTML & CSS Course](https://www.codecademy.com/learn/learn-html)
 - [freeCodeCamp HTML and HTML5](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
 - [Nu Html Checker](https://validator.w3.org/nu/#textarea)
+- [Simple Landing Page](https://codepen.io/luizomf/pen/KKNwMeG)
+- [Pseudo-classes](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
 
 ## Licença
 
