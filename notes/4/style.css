@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai h1+p{
+    color: red;
+}
+
+.pai p+h1{
+    color: purple;
+}
+
+.pai span~p{
+    color: green;
+}
+
+[meu-atributo] {
+    font-weight: bolder;
+}
+
+[atributo-link="cor-red"]{
+    color: red;
+}
+
+[atributo-link~="cor-brown"]{ /**/
+    color: brown;
+}
+
+[atributo-link|="yellow"]{ /*primeira palavra*/
+    color: yellow;
+}
+
+[atributo-link^="pink"]{ /*Começa*/
+    color: pink;
+}
+
+[atributo-link*="bu"]{ /*Contém*/
+    color: palevioletred;
+}
+
+.titulo:hover{
+    background-color: aqua;
+}
+
+section > a:link {
+    color: deeppink;
+}
+
+section a:visited {
+    color: firebrick;
+}
+
+section a:hover {
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+}
+
+section a:active {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+input:focus {
+    box-shadow: 0 0 5px black;
+    outline: none;
+    border: 1px solid black
+}
+
+input:disabled{
+    background-color: purple;
+    cursor: not-allowed;
+}
+
+#check:checked{
+    height: 50px;
+    width: 50px;
+}
+
+#check:checked + p{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+input:required{
+    background-color: red;
+}
