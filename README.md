@@ -43,6 +43,7 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [Nu Html Checker](https://validator.w3.org/nu/#textarea)
 - [Simple Landing Page](https://codepen.io/luizomf/pen/KKNwMeG)
 - [Pseudo-classes](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
+- [lorem-ipsum](https://loremipsum.io/)
 
 ## Licença
 
