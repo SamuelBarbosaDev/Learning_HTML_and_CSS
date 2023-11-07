@@ -1,0 +1,93 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+header{
+    background-color: crimson;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading-container > nav > ul > li{
+    display: inline;
+    margin-left: 1rem;
+}
+
+.heading-nav-link{
+    color: #fff;
+    font-weight: bold;
+}
+
+.heading-nav-link:hover{
+    color: #f1cfcf;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+
+/* MAIN */
+
+main{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.main-container{
+    margin-bottom: 1rem;
+}
+
+.main-container > .list > li::after{
+    content: ' - ';
+}
+
+.main-container > .list > li::before{
+    content: '[69] ';
+    font-size: 0.5rem;
+    color: crimson;
+}
+
+.main-container > p::first-letter{
+    font-size: 3rem;
+    font-family: 'times New Roman';
+    font-weight: bolder;
+}
+
+.main-container > p::first-line{
+    font-weight: bolder;
+    background-color: rgb(226, 226, 226);
+    height: 3rem;
+}
+
+.main-container > p::selection{
+    font-weight: bolder;
+    background-color: crimson;
+    color: #fff;
+}
+
+.email > input::placeholder{
+    color: crimson;
+    font-weight: bolder;
+}
