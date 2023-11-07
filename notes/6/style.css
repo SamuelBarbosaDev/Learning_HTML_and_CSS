@@ -1,0 +1,58 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+header{
+    background-color: cornflowerblue;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.heading-container > nav > ul > li{
+    display: inline;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* MAIN */
+
+main{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.main-container{
+    margin-bottom: 1rem;
+}
+
+.main-container:not(.fonts) > ul > li{
+    color: #fff;
+    font-weight: bolder;
+}
+
+.main-container:not(.fonts) > ul > li:nth-child(odd){
+    background-color: rebeccapurple;
+}
+
+.main-container:not(.fonts) > ul > li:nth-child(even){
+    background-color: darkturquoise;
+}
