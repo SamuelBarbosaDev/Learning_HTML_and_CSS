@@ -1,0 +1,59 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+header{
+    background-color: aqua;
+}
+
+.heading-container{
+    display: flex;
+    height: 50px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.heading-container > nav > ul > li{
+    display: inline;
+    margin-left: 20px;
+}
+
+/* MAIN */
+
+main{
+    margin-top: 45px;
+    background-color: palevioletred;
+}
+
+.main-container{
+    width: 800px;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.main-container > p:not(.meio){
+    background-color: grey;
+    margin-top: 15px;
+}
+
+
+input:not(:checked) + p{
+    background-color: yellowgreen;
+    color: #fff;
+    font-weight: bolder;
+}
