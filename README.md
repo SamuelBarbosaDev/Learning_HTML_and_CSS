@@ -44,6 +44,7 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [Simple Landing Page](https://codepen.io/luizomf/pen/KKNwMeG)
 - [Pseudo-classes](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
 - [lorem-ipsum](https://loremipsum.io/)
+- [Specificity](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity)
 
 ## Licença
 
