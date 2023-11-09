@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    max-width: 100rem;
+    max-height: 50rem;
+    min-width: 50rem;
+    min-height: 20rem;
+    height: 15rem;
+    width: 80rem;
+    overflow: auto;
+    border: 1rem solid;
+    background-color: red;
+    margin-top: 3rem;
+}
