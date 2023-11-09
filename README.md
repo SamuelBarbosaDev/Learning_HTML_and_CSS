@@ -46,6 +46,7 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [lorem-ipsum](https://loremipsum.io/)
 - [Specificity](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity)
 - [Cascade, specificity, and inheritance](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
+- [CSS Units](https://www.w3schools.com/cssref/css_units.php)
 
 ## Licença
 
