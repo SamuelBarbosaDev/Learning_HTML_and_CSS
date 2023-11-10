@@ -1,0 +1,163 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header{
+    background-color: crimson;
+}
+.header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.header-nav > li{
+    display: inline;
+}
+
+.header-nav-link{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+/* MAIN */
+main{
+    width: 50rem;
+    margin: 0px auto;
+    margin-top: 1.5rem;
+}
+#pai{
+    margin-bottom: 3rem;
+    padding: 2rem;
+    color: #fff;
+    background-color: darkcyan;
+}
+#pai > h2{
+    display: flex;
+    justify-content: center;
+}
+.filha{
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    position: static;
+}
+
+.n_1{
+    background-color: rgba(154, 205, 50, .5);
+    z-index: 1;
+}
+
+.n_2{
+    background-color: rgba(0, 0, 255, .5);
+    z-index: 2;
+}
+
+.n_3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#about{
+    height: 50rem;
+    background-color: purple;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+#about > h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#about > p::first-letter{
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+#contant{
+    margin-bottom: 3rem;
+}
+
+.contant-list{
+    height: 300px;
+    overflow: auto;
+}
+
+.contant-list > li.sticky{
+    position: sticky;
+    background-color: gray;
+    top: 0;
+}
+.nav-button-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 1rem;
+    background-color: crimson;
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+}
+#button-home{
+    font-size: 2.5rem;
+     color: #fff;
+}
+
+.nav-button-home:hover{
+    color: gray;
+    background-color: rgb(212, 94, 117);
+}
+
+/* FOOTER */
+
+footer{
+    background-color: crimson;
+}
+
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+#autor{
+    color: #fff;
+    font-weight: bolder;
+}
