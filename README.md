@@ -48,6 +48,9 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [Cascade, specificity, and inheritance](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
 - [CSS Units](https://www.w3schools.com/cssref/css_units.php)
 - [CSS Text](https://www.w3schools.com/css/css_text.asp)
+- [media-queries-breakpoints](https://devfacts.com/media-queries-breakpoints-2023/)
+- [@media Rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
+- [Using_media_queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries)
 
 ## Licença
 
