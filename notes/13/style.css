@@ -1,0 +1,34 @@
+/* GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* MAIN */
+main {
+    height: 100vh;
+    margin: 5rem auto;
+}
+
+.grid {
+    display: inline;
+}
+.col {
+    display: inline-block;
+    background-color: brown;
+    height: 300px;
+    width: 300px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 500px) {
+    .grid .col{
+        width: 100%;
+    }
+}
+@media (min-width: 800px) and (max-width: 800px){
+    .grid .col{
+        width: 50%;
+    }
+}
