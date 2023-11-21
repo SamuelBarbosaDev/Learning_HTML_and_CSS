@@ -1,0 +1,21 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* MAIN */
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    background-color: yellow;
+    height: 500px;
+}
+
+.flex-item{
+    background-color: red;
+    width: 5rem;
+}
