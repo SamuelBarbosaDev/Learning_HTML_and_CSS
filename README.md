@@ -52,6 +52,7 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [@media Rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
 - [Using_media_queries](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_media_queries/Using_media_queries)
 - [Flexbox](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox#um_aparte_no_modelo_flex)
+- [a-guide-to-flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Licença
 
