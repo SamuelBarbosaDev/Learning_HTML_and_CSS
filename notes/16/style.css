@@ -1,0 +1,18 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+.two-columns{
+    display: flex;
+}
+
+.col{
+    background-color: lawngreen;
+    margin: 1rem;
+    padding: 2rem;
+}
+
