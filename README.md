@@ -54,6 +54,9 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [Flexbox](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox#um_aparte_no_modelo_flex)
 - [a-guide-to-flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Can i use](https://caniuse.com/)
+- [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Grid Layout Module](https://www.w3schools.com/css/css_grid.asp)
+- [grid](https://developer.mozilla.org/pt-BR/docs/Web/CSS/grid)
 
 ## Licença
 
