@@ -1,0 +1,23 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+/* MAIN */
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: 2fr 1fr;
+    gap: 30px;
+}
+
+.grid > div{
+    background-color: red;
+    min-height: 100px;
+}
