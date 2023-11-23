@@ -57,6 +57,7 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [A Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [CSS Grid Layout Module](https://www.w3schools.com/css/css_grid.asp)
 - [grid](https://developer.mozilla.org/pt-BR/docs/Web/CSS/grid)
+- [svg-backgrounds](https://www.svgbackgrounds.com/)
 
 ## Licença
 
