@@ -175,6 +175,12 @@ header{
 .container-price{
     color: var(--primary-color);
 }
+
+/* Contact */
+.container-contact{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
 /*  */
 .main-bg {
     background-image: url('../img/main-bg.svg');
