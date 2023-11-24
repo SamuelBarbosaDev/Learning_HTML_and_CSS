@@ -201,3 +201,18 @@ header{
 .section {
     min-height: 100vh;
 }
+
+/* FOOTER */
+footer{
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
