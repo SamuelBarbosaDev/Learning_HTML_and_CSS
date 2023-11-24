@@ -52,6 +52,16 @@ h6{
     font-size: 3.5rem;
 }
 
+table{
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 1px solid #eee;
+    padding: 5px 10px;
+    text-align: left;
+}
+
 /* HEADER */
 header{
     background-color: var(--white-color);
@@ -84,6 +94,7 @@ header{
 /* MAIN */
 .container-content{
     width: 1000px;
+    height: 100vh;
     margin: 0 auto;
     padding: var(--gap);
 }
@@ -144,6 +155,25 @@ header{
     background-color: var(--primary-color);
     min-width: 200px;
     min-height: 200px;
+}
+/* Work */
+.container-work{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.recent-jobs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recent-jobs >div{
+    padding: var(--gap);
+}
+
+/* Price */
+.container-price{
+    color: var(--primary-color);
 }
 /*  */
 .main-bg {
