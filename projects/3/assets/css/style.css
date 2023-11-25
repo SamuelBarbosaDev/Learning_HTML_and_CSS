@@ -71,7 +71,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
+    width: 1200px;
     height: 5rem;
     margin: 0 auto;
 }
@@ -93,7 +93,7 @@ header{
 
 /* MAIN */
 .container-content{
-    width: 1000px;
+    width: 1200px;
     height: 100vh;
     margin: 0 auto;
     padding: var(--gap);
@@ -101,7 +101,8 @@ header{
 
 /* home */
 .container-home{
-    background-color: var(--primary-color);
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
     color: var(--white-color);
 }
 
@@ -130,7 +131,8 @@ header{
 
 /* top3 */
 .container-top3{
-    background-color: var(--primary-color);
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
     color: var(--white-color);
 }
 #top3-jobs{
@@ -152,13 +154,15 @@ header{
 }
 .gallery-content > div{
     margin: 1rem;
-    background-color: var(--primary-color);
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
     min-width: 200px;
     min-height: 200px;
 }
 /* Work */
 .container-work{
-    background-color: var(--primary-color);
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
     color: var(--white-color);
 }
 
@@ -178,7 +182,8 @@ header{
 
 /* Contact */
 .container-contact{
-    background-color: var(--primary-color);
+    background-image: url('../img/main-bg.svg');
+    background-size: cover;
     color: var(--white-color);
 }
 /*  */
@@ -212,7 +217,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1000px;
+    width: 1200px;
     height: 100px;
     margin: 0 auto;
 }
