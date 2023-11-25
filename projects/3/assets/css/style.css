@@ -65,6 +65,9 @@ table td, table th{
 /* HEADER */
 header{
     background-color: var(--white-color);
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .header{
