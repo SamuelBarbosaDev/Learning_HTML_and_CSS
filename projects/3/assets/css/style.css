@@ -195,14 +195,20 @@ header{
 }
 
 /* Gallery */
-.container-gallery{
+.gallery-content{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
     color: var(--primary-color);
 }
-.gallery-content{
+.gallery-summary{
+    margin-bottom: var(--gap);
+}
+.gallery-img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.gallery-content > div{
+.gallery-img > div{
     margin: 1rem;
     background-image: url('../img/main-bg.svg');
     background-size: cover;
