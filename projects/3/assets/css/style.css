@@ -177,6 +177,14 @@ header{
     background-size: cover;
     color: var(--white-color);
 }
+.top3-content{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+#top3-summary{
+    margin-bottom: var(--gap);
+}
 #top3-jobs{
     display: flex;
     justify-content: space-around;
