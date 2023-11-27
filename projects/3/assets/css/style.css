@@ -242,11 +242,49 @@ header{
     color: var(--primary-color);
 }
 
+.price-content{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#price-summary{
+    margin: 0 0 var(--spacings-medium);
+}
+
 /* Contact */
 .container-contact{
     background-image: url('../img/main-bg.svg');
     background-size: cover;
     color: var(--white-color);
+}
+
+.contact-content{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+#contact-summary{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+#contact-summary > div{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-flow: column;
+    padding: var(--gap);
+}
+#contact-summary > div > h2{
+    text-align: start;
+}
+#contact-summary > div > p{
+    font-size: 2.5rem;
+}
+#contact-summary > div > img{
+    height: auto;
+    width: 100%;
 }
 /*  */
 .main-bg {
