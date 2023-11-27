@@ -3,7 +3,13 @@
     --primary-color: #0a1128;
     --white-color: #ffffff;
     --crimson-color: crimson;
-    --gap: 3rem
+    --gap: 3rem;
+
+    --container-width-small: 30rem;
+
+    --spacings-large: 5rem;
+    --spacings-xlarge: 8rem;
+    --spacings-medium: 3rem;
 }
 *{
       margin: 0;
@@ -25,7 +31,7 @@ a{
 }
 
 h1, h2, h3, h4, h5, h6{
-      font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
     
 h1{
@@ -144,14 +150,25 @@ header{
 }
 
 /* intro */
-.intro-content{
+.intro-content > .text-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 0 10rem;
+    margin: 0 10rem 0 10rem;
     color: var(--primary-color);
+    font-size: 2.5rem;
 }
 
-.intro-content > h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.intro-content > .text-content > h2{
+    margin: 0 0 var(--spacings-medium);
+}
+
+.intro-content > .text-content > p{
+    margin: 0 0 var(--spacings-medium);
 }
 
 /* top3 */
