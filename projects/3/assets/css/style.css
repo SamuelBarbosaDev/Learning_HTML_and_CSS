@@ -222,6 +222,12 @@ header{
     color: var(--white-color);
 }
 
+.work-content{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
 .recent-jobs{
     display: flex;
     justify-content: space-around;
