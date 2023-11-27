@@ -2,6 +2,7 @@
 :root{
     --primary-color: #0a1128;
     --white-color: #ffffff;
+    --crimson-color: crimson;
     --gap: 3rem
 }
 *{
@@ -92,6 +93,23 @@ header{
 
 .nav-link{
     color: var(--primary-color);
+    position: relative;
+}
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background-color: var(--crimson-color);
+    transition: all 300ms ease-in-out;
+}
+
+.nav-link:hover::before{
+    width: 100%;
+    left: 0;
 }
 
 /* MAIN */
