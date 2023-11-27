@@ -128,15 +128,19 @@ header{
 }
 
 .container-home > .home-contents{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.home-text, .home-image{
     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 
-.home-text{
-    width: 40%;
-}
-
-.home-image{
-    width: 60%;
+.home-image > img{
+    height: auto;
+    width: 100%;
 }
 
 /* intro */
