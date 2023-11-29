@@ -6,7 +6,7 @@
     --white-color: #ffffff;
     --crimson-color: crimson;
 
-    --gap: 3rem;
+    --gap: 5rem;
 
     --container-width-small: 30rem;
     --container-images: 36rem;
@@ -86,7 +86,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 120rem;
+    max-width: 120rem;
     height: 5rem;
     margin: 0 auto;
 }
@@ -125,7 +125,7 @@ header{
 
 /* MAIN */
 .container-content{
-    width: 120rem;
+    max-width: 120rem;
     min-height: 100vh;
     margin: 0 auto;
     padding: var(--gap);
@@ -142,9 +142,10 @@ header{
     color: var(--white-color);
 }
 
-.container-home > .home-contents{
+.home-content{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
+    padding: var(--gap);
 }
 
 .home-text, .home-image{
@@ -239,7 +240,8 @@ header{
 
 .gallery-img{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 3rem;
 }
 
 .image-gallery{
@@ -338,7 +340,6 @@ header{
 
 #contact-form{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -352,6 +353,7 @@ header{
 
 #contact-form > div{
     padding: 2rem;
+    width: 100%;
 }
 
 #contact-form > div:nth-child(2){
@@ -360,15 +362,6 @@ header{
 
 #contact-form > div:nth-child(3){
     width: 50%;
-}
-
-#contact-form > div:nth-child(4){
-    width: 100%;
-}
-
-#contact-form > div:nth-child(5){
-    min-width: 100%;
-    max-width: 100%;
 }
 
 #contact-form textarea{
@@ -388,7 +381,7 @@ header{
     font-size: 3rem;
     padding: 1.5rem 2rem;
     border: none;
-    min-width: 100%;
+    width: 100%;
     color: var(--primary-color);
     background-color: var(--white-color);
 }
@@ -421,7 +414,25 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 120rem;
+    max-width: 120rem;
     height: 10rem;
     margin: 0 auto;
+}
+
+@media (max-width: 60rem){
+    #top3-jobs,
+    .recent-jobs,
+    #contact-summary{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home-content{
+        grid-template-columns: 1fr;
+    }
+
+    .intro-content{
+        font-size: 2rem;
+        padding: var(--gap);
+    }
 }
