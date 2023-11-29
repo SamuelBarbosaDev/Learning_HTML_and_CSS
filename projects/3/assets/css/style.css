@@ -240,15 +240,15 @@ header{
 
 .gallery-img{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+    gap: 2rem;
 }
 
 .image-gallery{
     overflow: hidden;
     min-height: var(--container-images);
     min-width: var(--container-images);
-    margin: 1rem;
+    padding: 1.5rem;
 }
 
 .image-gallery > img{
