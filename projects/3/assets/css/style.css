@@ -199,10 +199,29 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    counter-reset: top3-jobs;
 }
 
 #top3-jobs > div{
     padding: 2rem;
+}
+
+#top3-jobs > div > h3{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 2rem 0 2rem 7rem;
+    font-size: 3rem;
+}
+
+#top3-jobs > div > h3::before {
+    counter-increment: top3-jobs;
+    content: counter(top3-jobs);
+    position: absolute;
+    font-size: 8rem;
+    left: -7rem;
+    transform: rotate(5deg);
+    font-style: italic;
 }
 
 /* Gallery */
@@ -212,20 +231,15 @@ header{
     flex-flow: column;
     color: var(--primary-color);
 }
+
 .gallery-summary{
     margin-bottom: var(--gap);
 }
+
 .gallery-img{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-/* .gallery-img > div{
-    margin: 1rem;
-    background-image: url('../img/main-bg.svg');
-    background-size: cover;
-    min-width: 40rem;
-    min-height: 40rem;
-} */
 
 .image-gallery{
     overflow: hidden;
@@ -262,6 +276,7 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+
 .recent-jobs >div{
     padding: var(--gap);
 }
