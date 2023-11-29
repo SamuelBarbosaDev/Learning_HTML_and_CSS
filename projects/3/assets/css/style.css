@@ -9,6 +9,7 @@
     --gap: 3rem;
 
     --container-width-small: 30rem;
+    --container-images: 36rem;
 
     --spacings-large: 5rem;
     --spacings-xlarge: 8rem;
@@ -218,13 +219,31 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.gallery-img > div{
+/* .gallery-img > div{
     margin: 1rem;
     background-image: url('../img/main-bg.svg');
     background-size: cover;
-    min-width: 20rem;
-    min-height: 20rem;
+    min-width: 40rem;
+    min-height: 40rem;
+} */
+
+.image-gallery{
+    overflow: hidden;
+    min-height: var(--container-images);
+    min-width: var(--container-images);
+    margin: 1rem;
 }
+
+.image-gallery > img{
+    max-width: 100%;
+    height: auto;
+    transition: all 300ms ease-in-out;
+}
+
+.image-gallery > img:hover{
+    transform: scale(1.2) translate(-3%, 3%) rotate(4deg);
+}
+
 /* Work */
 .container-work{
     background-image: url('../img/main-bg.svg');
