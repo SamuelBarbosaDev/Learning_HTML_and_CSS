@@ -435,4 +435,9 @@ footer{
         font-size: 2rem;
         padding: var(--gap);
     }
+
+    #contact-form > div:nth-child(2),
+    #contact-form > div:nth-child(3){
+        width: 100%;
+    }
 }
