@@ -10,13 +10,15 @@
     rel="stylesheet">
 </head>
 <body>
+    <input id="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <header>
         <section class="header">
-            <a href="#home" class="title">
+            <a href="#home" class="title" onclick="getElementById('close-menu').checked = false">
                 LOGO
             </a>
             <nav>
-                <ul class="nav-list-links">
+                <ul class="nav-list-links" onclick="getElementById('close-menu').checked = false">
                     <li><a href="#intro" class="nav-link">intro</a></li>
                     <li><a href="#top3" class="nav-link">top 3</a></li>
                     <li><a href="#gallery" class="nav-link">gallery</a></li>
@@ -197,9 +199,7 @@
                         </div>
                         <button>Seed Message</button>
                     </fieldset>
-
                 </form>
-
             </article>
         </section>
     </main>
