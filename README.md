@@ -59,7 +59,8 @@ Aqui estão alguns recursos úteis para quem está aprendendo HTML e CSS:
 - [grid](https://developer.mozilla.org/pt-BR/docs/Web/CSS/grid)
 - [svg-backgrounds](https://www.svgbackgrounds.com/)
 - [unDraw](https://undraw.co/search)
-- [Char Sets][https://www.w3schools.com/charsets/ref_utf_dingbats.asp]
+- [Char Sets](https://www.w3schools.com/charsets/ref_utf_dingbats.asp)
+- [cheat-sheet](https://docs.emmet.io/cheat-sheet/)
 
 ## Licença
 
